@@ -1,4 +1,3 @@
-
 /// <reference types="./js-yaml.d.ts" />
 import './js-yaml.min.js'
 
@@ -24,4 +23,3 @@ export let scan = window.jsyaml.scan
 export let parse = window.jsyaml.parse
 export let compose = window.jsyaml.compose
 export let addConstructor = window.jsyaml.addConstructor
-

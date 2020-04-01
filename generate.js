@@ -11,4 +11,4 @@ for (const name in window.jsyaml) {
   text += `export let ${name} = window.jsyaml.${name}\n`
 }
 
-console.log(text)
+console.log(text.trim())
