@@ -7,7 +7,7 @@ This is a simple and crude port of [JS-YAML](https://github.com/nodeca/js-yaml) 
 Just import `js-yaml.js` file. For example:
 
 ```typescript
-import { load } from 'https://deno.land/x/js_yaml_port'
+import { load } from 'https://deno.land/x/js_yaml_port/js-yaml.js'
 console.log(load('hello: world')) // => prints { hello: "world" }
 ```
 
