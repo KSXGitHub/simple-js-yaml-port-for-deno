@@ -12,3 +12,6 @@ js-yaml.js: js-yaml.min.js
 
 test: js-yaml.js js-yaml.d.ts
 	deno test test.ts
+
+tag:
+	deno run -A tag.ts
