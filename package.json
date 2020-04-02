@@ -8,6 +8,7 @@
     "copy:js": "cp node_modules/js-yaml/dist/js-yaml.min.js js-yaml.min.js",
     "copy:types": "cp node_modules/@types/js-yaml/index.d.ts js-yaml.d.ts",
     "copy": "npm run copy:js && npm run copy:types",
-    "build": "npm run copy && deno run generate.js > js-yaml.js"
+    "build": "npm run copy && deno run generate.js > js-yaml.js",
+    "test": "npm run build && deno test test.ts"
   }
 }
