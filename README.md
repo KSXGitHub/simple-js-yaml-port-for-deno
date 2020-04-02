@@ -19,9 +19,9 @@ Just use [JS-YAML repo](https://github.com/nodeca/js-yaml#api) for references.
 
 ### Required tools
 
-* [Node.js](https://nodejs.org) to run package manager.
-* [pnpm](https://pnpm.js.org) to install npm packages.
-* [deno](https://deno.land) to build and test.
+* [`node`](https://nodejs.org) to run package manager.
+* [`pnpm`](https://pnpm.js.org) to install npm packages.
+* [`deno`](https://deno.land) to build and test.
 * `cp`.
 * `make`.
 
