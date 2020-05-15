@@ -11,7 +11,7 @@ js-yaml.js: js-yaml.min.js
 	deno run generate.js > js-yaml.js
 
 test: js-yaml.js js-yaml.d.ts
-	deno test test.ts
+	deno test --allow-read=js-yaml.js test.ts
 
 tag:
 	deno run -A tag.ts
