@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "js-yaml": "3.13.1",
-    "@types/js-yaml": "3.12.3"
+    "@types/js-yaml": "3.12.4"
   },
   "scripts": {
     "copy:js": "make js-yaml.min.js",
