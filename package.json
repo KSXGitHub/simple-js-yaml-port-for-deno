@@ -2,7 +2,7 @@
   "version": "3.14.0",
   "private": true,
   "dependencies": {
-    "js-yaml": "3.14.0",
+    "js-yaml": "3.14.1",
     "@types/js-yaml": "3.12.5"
   },
   "scripts": {

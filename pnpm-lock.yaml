@@ -1,7 +1,7 @@
 dependencies:
   '@types/js-yaml': 3.12.5
-  js-yaml: 3.14.0
-lockfileVersion: 5.1
+  js-yaml: 3.14.1
+lockfileVersion: 5.2
 packages:
   /@types/js-yaml/3.12.5:
     dev: false
@@ -20,18 +20,18 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
-  /js-yaml/3.14.0:
+  /js-yaml/3.14.1:
     dependencies:
       argparse: 1.0.10
       esprima: 4.0.1
     dev: false
     hasBin: true
     resolution:
-      integrity: sha512-/4IbIeHcD9VMHFqDR/gQ7EdZdLimOvW2DdcxFjdyyZ9NsbS+ccrXqVWDtab/lRl5AlUqmpBx8EhPaWR+OtY17A==
+      integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==
   /sprintf-js/1.0.3:
     dev: false
     resolution:
       integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 specifiers:
   '@types/js-yaml': 3.12.5
-  js-yaml: 3.14.0
+  js-yaml: 3.14.1
